@@ -1,0 +1,51 @@
+.banner-text h1 {
+    font-weight: 600;
+}
+
+.banner-text p {
+    font-weight: 400;
+}
+
+
+.garduation-icon {
+    color: lightseagreen;
+}
+
+
+
+.country-img {
+    width: 30%; 
+    height: 100px; 
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
+
+.eligibility-text li {
+    font-size: 18px;
+}
+
+
+#countries {
+    background-image: url('../images/study-abroad-bg.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0; 
+    color: #fff;
+}
+
+
+#countries h2 {
+    color: #fff; 
+}
+
+.country-img {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.country-img:hover {
+    transform: scale(1.05);
+}
+
